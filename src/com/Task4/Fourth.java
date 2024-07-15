@@ -1,0 +1,33 @@
+package com.Task4;
+import java.util.Scanner;
+
+public class Fourth {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 Scanner scanner = new Scanner(System.in);
+
+	        
+	        System.out.print("Enter the first number: ");
+	        int firstNumber = scanner.nextInt();
+
+	        System.out.print("Enter the second number: ");
+	        int secondNumber = scanner.nextInt();
+
+	       
+	        firstNumber = firstNumber + secondNumber;
+	        secondNumber = firstNumber - secondNumber;
+	        firstNumber = firstNumber - secondNumber;
+
+	       
+	        System.out.println("After swapping:");
+	        System.out.println("First number: " + firstNumber);
+	        System.out.println("Second number: " + secondNumber);
+
+	        scanner.close();
+	    }
+	
+
+	}
+
+
